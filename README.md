@@ -38,6 +38,17 @@ Modules that make use of the wallet simulation functionality reside in the `simu
 
 Tested with Python 2.7.
 
+This code base uses the bitcoind-style RPC interface to query basic information about Bitcoin transactions. To configure connection to this interface, create an `app.cfg` as follows:
+
+```INI
+[RPC]
+rpc_username=my_username #replace as appropriate
+rpc_password=my_password #replace as appropriate
+rpc_host=127.0.0.1 #replace as appropriate
+rpc_port=8332 #replace as appropriate
+
+```
+
 ## Primary Authors
 
 Kristov Atlas <firstname @ openbitcoinprivacyproject.org>
