@@ -2,7 +2,7 @@
 
 Uses clustering analysis of addresses/transactions on the Bitcoin blockchain to approximate the UTXO set of wallets, as well as desired spend values at the time of outgoing payments. Using this data, an alternate history of transactions can be simulated.
 
-Clustering anayalsis is provided by the WalletExplorer.com API.
+Clustering analysis is provided by the WalletExplorer.com API.
 
 ## Usage
 
