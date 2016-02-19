@@ -14,9 +14,9 @@ for utxos in Wallet(wallet_label=wallet_id):
 
 To see an example of usage of the `Wallet` class, the `print` module. You can execute that module as follows:
 
-```
-$cd wallet-simluator
-$python -m simulators.print 3562f0c16b41b2f9
+```Shell
+$ cd wallet-simulator
+$ python -m simulators.print 3562f0c16b41b2f9
 ```
 
 ## Simulations
